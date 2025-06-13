@@ -1,0 +1,14 @@
+span {
+    background-color: pink;
+    height: 200;
+    width: 100;
+    border: 20px solid rgb(34, 41, 34);
+    padding: 30px;
+    margin: 30px;
+    display: inline-block;
+
+}
+h1 {
+    width: 33.33%;
+    margin-left: 50%;
+}

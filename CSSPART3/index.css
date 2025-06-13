@@ -1,0 +1,28 @@
+div {
+    height: 200px;
+    width: 500px;
+    background-color: rgb(197, 55, 79);
+    color:burlywood;
+    border: 5px dashed blueviolet;
+    border-left-style: double ;
+    border-left-color: brown;
+    border-top-right-radius: 20px;
+    padding: 10px 20px 15px;
+    margin: 10px 20px 30px;
+}
+h1 {
+    border: 5px dashed pink;
+    text-align: center;
+    background-color:ghostwhite;
+    border-radius: 15px;
+    border-radius: 50%;
+}
+button {
+    background-color: papayawhip;
+    border-radius: 10px 120px;
+    padding: 10px;
+
+}
+* {
+    background-color: darkgrey;
+}

@@ -1,0 +1,18 @@
+*{
+    background-color: rgb(185, 83, 83);
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+    font-style:italic;
+    letter-spacing: 2px;
+    line-height: 20px;
+    
+}
+tr th {
+    text-decoration: underline;
+    background-color: pink;
+}
+.aa td{
+    background-color: yellow;
+}

@@ -1,0 +1,72 @@
+*{
+    background-color: white;
+    color: black;
+}
+#s button{
+    text-align: center;
+    color: red;
+}
+#myid p {
+    color: pink;
+}
+
+#ss a{
+    color: red;
+}
+
+nav ul li{
+    color: pink;
+}
+p + h3{
+    text-decoration: underline;
+}
+.myids {
+    color: green;
+    background-color: pink;
+}
+.myids + button{
+    background-color: rgb(185, 33, 58);
+}
+div > input{
+    background-color: darkgray;
+    color: pink;
+}
+input[type="text"] {
+    color: red;
+}
+
+input[type="password"] {
+    color: pink;
+}
+input[type] {
+    background-color: yellow;
+}
+button:hover {
+    color:white;
+    background-color:black;
+}
+input[type]:hover{
+    background-color: blue;
+}
+button:active {
+     background-color: aqua;
+     color: pink;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p:active{
+    font-weight: bold;
+}
+p:hover{
+    color: wheat;
+    text-decoration: underline;
+    line-height: 20px;
+}
+input[type="radio"]:checked + label {
+    background-color: black;
+    color: pink;
+    font-weight: bold;
+    letter-spacing: 20px;
+}
+p::first-line {
+    color: bisque;
+}

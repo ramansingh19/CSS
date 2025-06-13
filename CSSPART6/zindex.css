@@ -1,0 +1,20 @@
+div {
+    height: 200px;
+    width: 200px;
+    background-color: rgb(128, 172, 210);
+    text-align: center;
+    border: 2px solid black;
+
+    
+}
+.one {
+    background-color: pink;
+    position: relative;
+    z-index: 1;
+ 
+}
+.two {
+    background-color: paleturquoise;
+    position: relative;
+    z-index: -2;
+}

@@ -1,0 +1,85 @@
+html,body{
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  line-height: 1.8em;
+  color: #666;
+  font-weight: 400;
+}
+
+.pimag1 {
+   background-image: url(images/image1.jpg); 
+   min-height: 100vh;
+}
+
+.pimag2 {
+   background-image: url(images/image2.jpg); 
+   min-height: 700px;
+}
+
+.pimag3 {
+   background-image: url(images/image3.jpg); 
+   min-height: 700px;
+}
+
+
+
+.pimag1, .pimag2, .pimag3 {
+  position: relative;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   
+}
+
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    font-size: 27px;
+    
+
+    
+
+}
+
+.textbg {
+    background-color: #313534;
+    padding: 20px;
+    color: white;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 1px solid black;
+    /* border: none; */
+    /* background:scroll; */
+    
+}
+.textbg:hover{
+    transform: translate(10px);
+    background: transparent;
+    border: none;
+    
+    
+}
+
+.one{
+  padding: 50px,80px;
+  text-align: center;
+  
+}
+
+.one_line{
+  background-color: #f4f4f4;
+  color: #666;
+}
+
+.one_dark {
+  background-color: #818f9d;
+  color: #313534;
+}

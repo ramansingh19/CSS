@@ -1,0 +1,28 @@
+#two{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    margin: 30px;
+    transform: rotate(-140deg);
+}
+#one{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    margin: 30px;
+    transform: scale(1) ;
+}
+#lol{
+    height: 100px;
+    width: 100px;
+    background-color: burlywood;
+    box-shadow: 2px 2px 10px blue;
+}
+#oops{
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    background-color: pink;
+    background-image: url("nani.jpg");
+    background-size: cover;/*contain auto*/
+}

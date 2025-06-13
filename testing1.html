@@ -1,0 +1,68 @@
+import { useState } from "react";
+import { Home, Search, Library, Play, Pause, SkipForward, SkipBack } from "lucide-react";
+import "./SpotifyClone.css";
+
+export default function SpotifyClone() {
+  const [isPlaying, setIsPlaying] = useState(false);
+
+  const togglePlay = () => setIsPlaying(!isPlaying);
+  <link rel="stylesheet" href="testing.css">
+
+  return (
+    <div className="spotify-container">
+      {/* Top Navigation */}
+      <div className="main-section">
+        {/* Sidebar */}
+        <aside className="sidebar">
+          <nav className="nav-links">
+            <button className="nav-button">
+              <Home /> <span>Home</span>
+            </button>
+            <button className="nav-button">
+              <Search /> <span>Search</span>
+            </button>
+            <button className="nav-button">
+              <Library /> <span>Your Library</span>
+            </button>
+          </nav>
+        </aside>
+
+        {/* Main Content */}
+        <main className="main-content">
+          <h1 className="main-title">Welcome to Spotify Clone</h1>
+          <div className="song-grid">
+            {[...Array(8)].map((_, i) => (
+              <div
+                key={i}
+                className="song-card"
+              >
+                <div className="song-image"></div>
+                <p className="song-title">Song Title {i + 1}</p>
+                <p className="song-artist">Artist Name</p>
+              </div>
+            ))}
+          </div>
+        </main>
+      </div>
+
+      {/* Music Player */}
+      <footer className="music-player">
+        <div className="now-playing">
+          <p className="now-playing-title">Now Playing</p>
+          <p className="now-playing-artist">Sample Song - Artist</p>
+        </div>
+        <div className="player-controls">
+          <SkipBack />
+          <button
+            onClick={togglePlay}
+            className="play-button"
+          >
+            {isPlaying ? <Pause /> : <Play />}
+          </button>
+          <SkipForward />
+        </div>
+        <div className="track-time">00:42 / 03:12</div>
+      </footer>
+    </div>
+  );
+}

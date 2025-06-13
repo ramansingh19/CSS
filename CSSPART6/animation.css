@@ -1,0 +1,46 @@
+.animation {
+    height: 300px;
+    width: 400px;
+    background-color: pink;
+    animation-name: raman;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: 3;
+    animation: color 2s ease-in 0s alternate-reverse 3;
+}
+@keyframes raman {
+    from{
+        font-size:20px;
+    }
+    to
+    {
+        font-size:40px;
+    }
+}
+@keyframes color {
+    from{
+        background-color: bisque;
+    }
+    to
+    {
+      background-color: brown;
+    }
+}
+.odd {
+    height: 100px;
+    width: 500px;
+    background-color: pink;
+}
+@media (min-width:200px)and(max-width:400px){
+    .odd{
+        background-color: antiquewhite;
+    }
+}
+@media (orientation:landscape){
+    .odd{
+        background-color: yellow;
+        color: pink;
+    }
+}

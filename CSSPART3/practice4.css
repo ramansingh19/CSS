@@ -1,0 +1,10 @@
+div ul li {
+    display: inline-block;
+    list-style-type: circle;
+
+     /*list-style-type: disc; when we use inline block display then
+all text try to fit in one line then bullet points are automatically
+remove from the line */
+   padding-right: 20px;
+   margin-left: 20px;
+}

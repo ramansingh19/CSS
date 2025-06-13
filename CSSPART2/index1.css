@@ -1,0 +1,66 @@
+#maintopic {
+    color: blue;
+}
+
+* p {
+    text-align: center;
+    background-color: cornflowerblue;
+    color: white;
+}
+
+* h1 {
+   text-align: center;
+   text-decoration: underline;
+}
+h1:hover{
+    background-color: bisque;
+}
+h1:active{
+    background-color: black;
+}
+* p {
+    text-align: start;
+}
+h1:active{
+    background-color: gold;
+}
+button:hover{
+    background-color: pink !important;
+}
+h1,h3,h5 {
+    color:tomato;
+    font-family: georgia;
+}
+label:hover {
+    color: aliceblue;
+    background-color: wheat;
+
+}
+h3:active {
+   font-style: inherit;
+   background-color: darkgoldenrod;
+
+}
+
+div button {
+    background-color: purple;
+    color: azure;
+}
+
+/*pseudo class*/
+button:hover {
+    background-color: yellow;
+    color: blue;
+}
+
+p:nth-of-type(2n) {
+    color: yellow;
+}
+h1::first-letter {
+    color: red;
+}
+#yes:checked + label {
+    color: darkgreen;
+
+}
+

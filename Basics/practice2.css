@@ -1,0 +1,32 @@
+a{
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+    letter-spacing: 5px;
+    text-decoration: underline wavy #00f;
+    color: #fff;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f04c4c;
+   
+}
+p{
+    line-height: 2;
+    letter-spacing: 1px;
+    text-align: justify;
+    font-weight: 800;
+}
+h2{
+   text-decoration: wavy underline #4b2a2a ;
+    text-align: right;
+    width: 80%;
+    color: #ff0;
+    
+
+}
+h3{
+    text-align:inherit;
+    background-color: #00f;
+}
